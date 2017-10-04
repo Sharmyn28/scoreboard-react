@@ -36,7 +36,7 @@ class Model{
     this.players.push({
       name: player,
       score: 0,
-      id: 0
+      id: Utils.uuid()
     })
       //this.inputValue.value = '';
       console.log('aumenta usuario');
